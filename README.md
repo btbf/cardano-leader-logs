@@ -25,7 +25,7 @@ pytz.timezone('Asia/Tokyo')
 33行目のタイムゾーンを書き換える
 
 ### 2.設定ファイルを作成する
-'''text
+```bash
 cp example.leaderlogs.json slotLeaderLogsConfig.json
 nano slotLeaderLogsConfig.json
 ```
