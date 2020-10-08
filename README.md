@@ -1,6 +1,9 @@
 # cardano-leader-logs
 https://github.com/MarcelKlammer/cardano-leader-logs
 
+
+description:以下はリレーノードでも実行可能です。
+
 ## 1.任意のノードでnode.jsとpython3と関連パッケージをインストールする
 https://github.com/MarcelKlammer/cardano-leader-logs/blob/main/README.md  
 nodejsとpythonの項目を実行する
