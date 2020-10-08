@@ -6,7 +6,7 @@ https://github.com/MarcelKlammer/cardano-leader-logs/blob/main/README.md
 nodejsとpythonの項目を実行する
 
 
-## 2.上記Githubからクローンを作成する
+## 2.Githubからクローンを作成する
 ```bash
 cd $git #←任意のフォルダでOK
 git clone https://github.com/MarcelKlammer/cardano-leader-logs
