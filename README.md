@@ -60,3 +60,13 @@ https://epoch-api.crypto2099.io:2096/epoch/222
 node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json
 ```
 slotLeaderLogsConfig.jsonのパスはご自身の環境に合わせて修正して下さい。
+
+### 出力
+初回出力時のログ状況
+```bash
+Loading ledger state: /home/btbf/git/cardano-leader-logs/ledgerstate.json
+Could not load ledger state from config. Trying to generate new lederstate.json
+Loading protocol parameters
+```bash
+スロットリーダー割り当て時間が取得されるまで10分ぐらいはかかる
+
