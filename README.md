@@ -7,30 +7,30 @@ nodejsとpythonの項目を実行する
 
 
 ## 2.上記Githubからクローンを作成する
-'''text
+```bash
 cd $git #←任意のフォルダでOK
 git clone https://github.com/MarcelKlammer/cardano-leader-logs
 cd cardano-leader-logs
-'''
+```
 
 ## 各ファイルを編集する
 
 ### 1.取得するスロットリーダーを日本時間にする
-'''text
+```bash
 nano isSlotLeader.py
-'''
+```
 '''text
 pytz.timezone('Asia/Tokyo')
-'''
+```bash
 33行目のタイムゾーンを書き換える
 
 ### 2.設定ファイルを作成する
 '''text
 cp example.leaderlogs.json slotLeaderLogsConfig.json
 nano slotLeaderLogsConfig.json
-'''
+```
 
-'''text
+```bash
 {
   "epochNonce":       "5ee77854fe91cc243b8d5589de3192e795f162097dba7501f8d1b0d5d7546bd5",
 
@@ -46,7 +46,7 @@ nano slotLeaderLogsConfig.json
   "cardanoCLI":       "cardano-cli",
   "nodeStatsURL":     "http://127.0.0.1:12798/metrics"
 }
-'''
+```
 https://epoch-api.crypto2099.io:2096/epoch/222
 
 1.上記からeta0の値をコピーして、epochNonceに貼り付ける
@@ -55,7 +55,7 @@ https://epoch-api.crypto2099.io:2096/epoch/222
 （libsodiumBinaryはそのままでOK）
 
 ### 実行する
-'''text
+```bash
 node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json
-'''
+```
 slotLeaderLogsConfig.jsonのパスはご自身の環境に合わせて修正して下さい。
