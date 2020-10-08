@@ -15,7 +15,7 @@ cd cardano-leader-logs
 
 ## 各ファイルを編集する
 
-### 1.取得するスロットリーダーを日本時間にする
+### 1.日本時間表記に対応する
 ```bash
 nano isSlotLeader.py
 ```
