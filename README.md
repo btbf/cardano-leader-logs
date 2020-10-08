@@ -18,11 +18,12 @@ cd cardano-leader-logs
 ### 1.日本時間表記に対応する
 ```bash
 nano isSlotLeader.py
-```
-'''text
+
+#33行目のタイムゾーンを書き換える
 pytz.timezone('Asia/Tokyo')
-```bash
-33行目のタイムゾーンを書き換える
+```
+
+
 
 ### 2.設定ファイルを作成する
 ```bash
