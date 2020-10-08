@@ -67,6 +67,7 @@ slotLeaderLogsConfig.jsonのパスはご自身の環境に合わせて修正し�
 Loading ledger state: /home/btbf/git/cardano-leader-logs/ledgerstate.json
 Could not load ledger state from config. Trying to generate new lederstate.json
 Loading protocol parameters
-```bash
-スロットリーダー割り当て時間が取得されるまで10分ぐらいはかかる
+```
+この表示になるとスロットリーダー割り当て時間が表示されるが
+取得されるまで10分ぐらいはかかる
 
