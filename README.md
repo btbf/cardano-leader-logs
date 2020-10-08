@@ -50,10 +50,10 @@ nano slotLeaderLogsConfig.json
 ```
 https://epoch-api.crypto2099.io:2096/epoch/222
 
-1.上記からeta0の値をコピーして、epochNonceに貼り付ける
-2.BPからvrf.skeyを任意のフォルダへコピーする
-3.PoolID、各種ファイルパスを修正する（念の為homeからのパスで記述する）
-（libsodiumBinaryはそのままでOK）
+1.上記からeta0の値をコピーして、epochNonceに貼り付ける  
+2.BPからvrf.skeyを任意のフォルダへコピーする  
+3.PoolID、各種ファイルパスを修正する（念の為homeからのパスで記述する）  
+（libsodiumBinaryはそのままでOK）  
 
 ### 実行する
 ```bash
