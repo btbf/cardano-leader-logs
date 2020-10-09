@@ -5,8 +5,8 @@ https://github.com/MarcelKlammer/cardano-leader-logs
 
 ## 1.任意のノードでnode.jsとpython3と関連パッケージをインストールする
 https://github.com/MarcelKlammer/cardano-leader-logs/blob/main/README.md  
-nodejsとpythonの項目を実行する
-pythonバージョン確認でエラーが出る場合は
+nodejsとpythonの項目を実行する  
+上記マニュアル内のpythonバージョン確認でエラーが出る場合は
 ```bash
 python3 --version
 ```
