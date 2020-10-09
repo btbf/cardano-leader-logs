@@ -59,7 +59,7 @@ nano slotLeaderLogsConfig.json
 ```bash
 node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json epochNoneHash
 
-ex)
+ex 222エポックの場合)
 node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json 171625aef5357dfccfeaeedecd5de49f71fb6e05953f2799d3ff84419dbef0ac
 ```
 https://epoch-api.crypto2099.io:2096/epoch/  
