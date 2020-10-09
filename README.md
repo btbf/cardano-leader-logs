@@ -51,9 +51,10 @@ nano slotLeaderLogsConfig.json
   "nodeStatsURL":     "http://127.0.0.1:12798/metrics"
 }
 ```
+1.PoolID、各種ファイルパスを修正する（念の為homeからのパスで記述する）  
+（libsodiumBinaryはそのままでOK）
 2.BPからvrf.skeyを任意のフォルダへコピーする  
-3.PoolID、各種ファイルパスを修正する（念の為homeからのパスで記述する）  
-（libsodiumBinaryはそのままでOK）  
+  
 
 ### 実行する
 ```bash
