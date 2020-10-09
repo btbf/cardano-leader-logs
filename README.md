@@ -38,8 +38,6 @@ nano slotLeaderLogsConfig.json
 
 ```bash
 {
-  "epochNonce":       "5ee77854fe91cc243b8d5589de3192e795f162097dba7501f8d1b0d5d7546bd5",
-
   "poolId":           "00000000000000000000000000000000000000000000000000000000",
   "vrfSkey":          "/path/to/vrf.skey",
 
@@ -53,17 +51,16 @@ nano slotLeaderLogsConfig.json
   "nodeStatsURL":     "http://127.0.0.1:12798/metrics"
 }
 ```
-https://epoch-api.crypto2099.io:2096/epoch/222
-
-1.上記からeta0の値をコピーして、epochNonceに貼り付ける  
 2.BPからvrf.skeyを任意のフォルダへコピーする  
 3.PoolID、各種ファイルパスを修正する（念の為homeからのパスで記述する）  
 （libsodiumBinaryはそのままでOK）  
 
 ### 実行する
 ```bash
-node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json epochNoneHash [optional: 1]
+node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json <epochNoneHash>
 ```
+https://epoch-api.crypto2099.io:2096/epoch/222
+1.上記から調べたいスロットのハッシュ値をコピーして、<epochNoneHash>部分に貼り付ける
 slotLeaderLogsConfig.jsonのパスはご自身の環境に合わせて修正して下さい。
 
 ### 出力
