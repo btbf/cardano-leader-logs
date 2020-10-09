@@ -62,7 +62,7 @@ https://epoch-api.crypto2099.io:2096/epoch/222
 
 ### 実行する
 ```bash
-node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json
+node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json epochNoneHash [optional: 1]
 ```
 slotLeaderLogsConfig.jsonのパスはご自身の環境に合わせて修正して下さい。
 
