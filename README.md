@@ -59,8 +59,8 @@ nano slotLeaderLogsConfig.json
 ```bash
 node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json <epochNoneHash>
 ```
-https://epoch-api.crypto2099.io:2096/epoch/222
-1.上記から調べたいスロットのハッシュ値をコピーして、<epochNoneHash>部分に貼り付ける
+https://epoch-api.crypto2099.io:2096/epoch/222  
+1.上記から調べたいスロットのハッシュ値をコピーして、<epochNoneHash>部分に貼り付ける  
 slotLeaderLogsConfig.jsonのパスはご自身の環境に合わせて修正して下さい。
 
 ### 出力
