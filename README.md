@@ -20,17 +20,7 @@ cd cardano-leader-logs
 
 ## 各ファイルを編集する
 
-### 1.日本時間表記に対応する
-```bash
-nano isSlotLeader.py
-
-#33行目のタイムゾーンを書き換える
-pytz.timezone('Asia/Tokyo')
-```
-
-
-
-### 2.設定ファイルを作成する
+### 1.設定ファイルを作成する
 ```bash
 cp example.leaderlogs.json slotLeaderLogsConfig.json
 nano slotLeaderLogsConfig.json
@@ -49,6 +39,8 @@ nano slotLeaderLogsConfig.json
   "libsodiumBinary":  "/usr/local/lib/libsodium.so",
   "cardanoCLI":       "cardano-cli",
   "nodeStatsURL":     "http://127.0.0.1:12798/metrics"
+  
+  "timeZone":         "Asia/Tokyo"
 }
 ```
 1.PoolID、各種ファイルパスを修正する（念の為homeからのパスで記述する）  
