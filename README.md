@@ -44,8 +44,8 @@ nano slotLeaderLogsConfig.json
 }
 ```
 1.PoolID、各種ファイルパスを修正する（念の為homeからのパスで記述する）  
-（libsodiumBinaryはそのままでOK）
-2.BPからvrf.skeyを任意のフォルダへコピーする  
+（libsodiumBinaryはそのままでOK）  
+2.リレーノードで実行する場合は、BPからvrf.skeyを任意のフォルダへコピーする  
   
 
 ### 実行する
