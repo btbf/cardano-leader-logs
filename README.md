@@ -38,7 +38,7 @@ nano slotLeaderLogsConfig.json
 
   "libsodiumBinary":  "/usr/local/lib/libsodium.so",
   "cardanoCLI":       "cardano-cli",
-  "nodeStatsURL":     "http://127.0.0.1:12798/metrics"
+  "nodeStatsURL":     "http://127.0.0.1:12798/metrics",
   
   "timeZone":         "Asia/Tokyo"
 }
