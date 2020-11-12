@@ -34,7 +34,7 @@ nano slotLeaderLogsConfig.json
   "genesisShelley":   "/path/to/mainnet-shelley-genesis.json",
   "genesisByron":     "/path/to/mainnet-byron-genesis.json",
 
-  "ledgerState":      "/path/to/cardano-leader-logs/ledgerstate.json",
+  "ledgerState":      "",
 
   "libsodiumBinary":  "/usr/local/lib/libsodium.so",
   "cardanoCLI":       "cardano-cli",
