@@ -54,6 +54,9 @@ node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json ep
 
 ex 222エポックの場合)
 node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json 171625aef5357dfccfeaeedecd5de49f71fb6e05953f2799d3ff84419dbef0ac
+
+過去のエポックを出力する場合 ex. 228）
+node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json a21f1bc2eafb9dc040ba56453ed7f5a8dc00366d5941b28f47655cb309177e08 1 0.48
 ```
 https://epoch-api.crypto2099.io:2096/epoch/  
 1.eta0の値をコピーして、epochNoneHash　部分に貼り付ける  
