@@ -50,7 +50,7 @@ nano slotLeaderLogsConfig.json
 
 ### 実行する
 ```bash
-node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json epochNoneHash
+node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json epochNoneHash [optional: 1] [optional: additionalDParameter, eg. 0.0]
 
 ex 222エポックの場合)
 node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json 171625aef5357dfccfeaeedecd5de49f71fb6e05953f2799d3ff84419dbef0ac
@@ -58,6 +58,8 @@ node cardanoLeaderLogs.js ~/git/cardano-leader-logs/slotLeaderLogsConfig.json 17
 https://epoch-api.crypto2099.io:2096/epoch/  
 1.eta0の値をコピーして、epochNoneHash　部分に貼り付ける  
 slotLeaderLogsConfig.jsonのパスはご自身の環境に合わせて修正して下さい。
+
+2.過去エポックを参照する場合は、dパラメータも付与してください。
 
 ### 出力
 初回出力時のログ状況
