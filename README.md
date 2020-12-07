@@ -13,7 +13,7 @@ python3 --version
 
 ## 2.Githubからクローンを作成する
 ```bash
-cd $git #←任意のフォルダでOK
+cd git #←任意のフォルダでOK
 git clone https://github.com/MarcelKlammer/cardano-leader-logs
 cd cardano-leader-logs
 ```
